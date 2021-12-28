@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+.di {
+  width:180px;
+  height:30px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color:white;
+  font-size: 15px;
+  outline:none;
+  color:black;
+  font-family: volkorn;
+  text-align: center;
+}
+
+.db {
+  width:180px;
+  height:50px;
+  background-color: red;
+  border: 3px solid white;
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.greeting{
+  font-size: 40px;
+  color: green;
+  font-family: vollkorn;
+  text-align: center;
+}
+
